@@ -1,3 +1,22 @@
+body {
+  text-align: center;
+}
+
+#hero {
+  background-color: #c4eaff;
+  display: flex;
+}
+
+h1 {
+  font-size: 67.34px;
+  margin: 10px auto;
+}
+
 #title{
   font-family: 'Playfair Display';
+}
+
+h3 {
+  font-family: 'Overpass';
+  font-size: 28.43px;
 }
