@@ -69,7 +69,7 @@ a {
   border: 3px solid #8557EF;
   border-radius: 40px;
   font-size: 16px;
-
+  transition: 0.75s;
 
 }
 
