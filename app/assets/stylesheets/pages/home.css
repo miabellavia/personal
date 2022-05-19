@@ -1,3 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 body {
   text-align: center;
 }
@@ -7,11 +13,13 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: auto;
 }
 
 h1 {
   font-size: 67.34px;
   margin: 10px auto;
+  margin-top: 32px;
 }
 
 #title{
@@ -20,7 +28,8 @@ h1 {
 }
 
 h3 {
-  font-family: 'Overpass';
+  /* font-family: 'Overpass'; */
+  font-family: 'Roboto Flex';
   font-size: 22.43px;
 }
 
@@ -33,7 +42,8 @@ h3 {
   justify-content: space-around;
   width: 960px;
   align-items: center;
-
+  margin-bottom: 32px;
+  margin-top: 22px;
 }
 
 .card {
@@ -41,35 +51,28 @@ h3 {
   background-color: black;
 }
 
-#c1 {
+#c1, #c3 {
   width: 235px;
-  height: 378px;
+  height: 358px;
 
 }
 
 #c2 {
   width: 439px;
-  height: 518px;
-}
-
-#c3 {
-  width: 235px;
-  height: 378px;
-
+  height: 439px;
 }
 
 a {
   color:black;
   text-decoration: none;
-  padding: 0 22px;
-  padding-top: 3px;
-  /* background-color:  #8557EF; */
-  border: 3px solid black;
-  border-radius: 8px;
-  font-size: 18px;
+  padding: 8px 22px;
+  border: 3px solid #8557EF;
+  border-radius: 40px;
+  font-size: 16px;
+
+
 }
 
 a:hover {
-  border: 3px solid #8557EF;
-  color:#8557EF;
+  background-color: #aa88fa;
 }
