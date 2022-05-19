@@ -5,6 +5,8 @@ body {
 #hero {
   background-color: #c4eaff;
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -14,9 +16,60 @@ h1 {
 
 #title{
   font-family: 'Playfair Display';
+  font-weight: 900;
 }
 
 h3 {
   font-family: 'Overpass';
-  font-size: 28.43px;
+  font-size: 22.43px;
+}
+
+#description {
+  margin-top: 0px;
+}
+
+#hero_showcase {
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  align-items: center;
+
+}
+
+.card {
+  opacity: 50%;
+  background-color: black;
+}
+
+#c1 {
+  width: 235px;
+  height: 378px;
+
+}
+
+#c2 {
+  width: 439px;
+  height: 518px;
+}
+
+#c3 {
+  width: 235px;
+  height: 378px;
+
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  padding: 0 22px;
+  padding-top: 3px;
+  /* background-color:  #8557EF; */
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+a:hover {
+  border: 3px solid #8557EF;
+  color:#8557EF;
 }
