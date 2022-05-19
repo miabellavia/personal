@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+#hero {
+  background-color: #c4eaff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+
+h1 {
+  font-size: 67.34px;
+  margin: 10px auto;
+  margin-top: 32px;
+}
+
+#title{
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
+
+h3 {
+  /* font-family: 'Overpass'; */
+  font-family: 'Roboto Flex';
+  font-size: 22.43px;
+}
+
+#description {
+  margin-top: 0px;
+}
+
+#hero_showcase {
+  display: flex;
+  justify-content: space-around;
+  width: 960px;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-top: 22px;
+}
+
+.card {
+  opacity: 50%;
+  background-color: black;
+}
+
+#c1, #c3 {
+  width: 235px;
+  height: 358px;
+
+}
+
+#c2 {
+  width: 439px;
+  height: 439px;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  padding: 8px 22px;
+  border: 3px solid #8557EF;
+  border-radius: 40px;
+  font-size: 16px;
+
+
+}
+
+a:hover {
+  background-color: #aa88fa;
+}
