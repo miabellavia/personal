@@ -25,10 +25,12 @@ h1 {
 #title{
   font-family: 'Playfair Display';
   font-weight: 900;
+  animation-name: title;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 
 h3 {
-  /* font-family: 'Overpass'; */
   font-family: 'Roboto Flex';
   font-size: 22.43px;
 }
@@ -40,26 +42,34 @@ h3 {
 #hero_showcase {
   display: flex;
   justify-content: space-around;
-  width: 960px;
+  width: 920px;
   align-items: center;
   margin-bottom: 32px;
   margin-top: 22px;
 }
 
 .card {
+  background-color: white;
   opacity: 50%;
-  background-color: black;
+  border-radius: 16px;
+  animation-name: card;
+  transition: 0.5s;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.36,
+    0.72,
+    0.63,
+    0.98);
 }
 
 #c1, #c3 {
-  width: 235px;
-  height: 358px;
+  width: 216px;
+  height: 328px;
 
 }
 
 #c2 {
-  width: 439px;
-  height: 439px;
+  width: 380px;
+  height: 440px;
 }
 
 a {
@@ -75,4 +85,18 @@ a {
 
 a:hover {
   background-color: #aa88fa;
+}
+
+@keyframes card {
+  from {transform: translateY(50%);
+  opacity: 0;
+  background-color: white;}
+  to {transform: translateY(0%);
+  opacity: 0.5;
+  background-color: white;}
+}
+
+.card:hover {
+  padding: 12px;
+  opacity: 1;
 }
