@@ -14,6 +14,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: auto;
+
 }
 
 h1 {
@@ -52,6 +53,7 @@ h3 {
   background-color: white;
   opacity: 50%;
   border-radius: 16px;
+  box-shadow: 4px 6px rgba(0, 0, 0, 0.3);
   animation-name: card;
   transition: 0.5s;
   animation-duration: 1s;
@@ -74,6 +76,7 @@ h3 {
 
 a {
   color:black;
+  background-color: white;
   text-decoration: none;
   padding: 8px 22px;
   border: 3px solid #8557EF;
