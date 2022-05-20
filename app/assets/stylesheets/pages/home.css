@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: auto;
+  height: 2000px;
 
 }
 
@@ -38,6 +38,7 @@ h3 {
 
 #description {
   margin-top: 0px;
+  margin-bottom: 28px;
 }
 
 #hero_showcase {
@@ -76,13 +77,13 @@ h3 {
 
 a {
   color:black;
-  background-color: white;
+  background-color: #8557EF;
   text-decoration: none;
-  padding: 8px 22px;
+  padding: 8px 28px;
   border: 3px solid #8557EF;
-  border-radius: 40px;
+  /* border-radius: 50px; */
   font-size: 16px;
-  transition: 0.75s;
+  /* transition: 0.75s; */
 
 }
 
@@ -100,6 +101,12 @@ a:hover {
 }
 
 .card:hover {
-  padding: 12px;
+  transform: translateY(-8%);
   opacity: 1;
+}
+
+#buttons_container {
+  width: 336px;
+  display: flex;
+  justify-content: space-evenly;
 }
