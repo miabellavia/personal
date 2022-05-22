@@ -9,12 +9,18 @@ body {
 }
 
 #hero {
-  background-color: #c4eaff;
+  background-color: #C2BCAE;
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 2000px;
 
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 h1 {
@@ -26,9 +32,7 @@ h1 {
 #title{
   font-family: 'Playfair Display';
   font-weight: 900;
-  animation-name: title;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
+
 }
 
 h3 {
@@ -52,8 +56,8 @@ h3 {
 
 .card {
   background-color: white;
-  opacity: 50%;
-  border-radius: 16px;
+  opacity: 70%;
+  border-radius: 4px;
   box-shadow: 4px 6px rgba(0, 0, 0, 0.3);
   animation-name: card;
   transition: 0.5s;
@@ -75,20 +79,24 @@ h3 {
   height: 440px;
 }
 
+#buttons_container {
+  display: flex;
+}
+
 a {
   color:black;
-  background-color: #8557EF;
   text-decoration: none;
   padding: 8px 28px;
-  border: 3px solid #8557EF;
-  /* border-radius: 50px; */
+  border: 3px solid #CA3F72;
   font-size: 16px;
-  /* transition: 0.75s; */
+  transition: 0.5s;
 
 }
 
 a:hover {
-  background-color: #aa88fa;
+  color: white;
+  background-color: #CA3F72;
+  transform: translateX(0px) translateX(12px);
 }
 
 @keyframes card {
