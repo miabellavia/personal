@@ -9,7 +9,7 @@ body {
 }
 
 #hero {
-  background-color: #C2BCAE;
+  background-color: #F2F7F2;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -55,9 +55,9 @@ h3 {
 }
 
 .card {
-  background-color: white;
+  background-color: #C4EAFF;
   opacity: 70%;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   box-shadow: 4px 6px rgba(0, 0, 0, 0.3);
   animation-name: card;
   transition: 0.5s;
@@ -79,6 +79,10 @@ h3 {
   height: 440px;
 }
 
+#image1 {
+  width: 100%;
+}
+
 #buttons_container {
   display: flex;
 }
@@ -87,7 +91,7 @@ a {
   color:black;
   text-decoration: none;
   padding: 8px 28px;
-  border: 3px solid #CA3F72;
+  border: 3px solid #8557EF;
   font-size: 16px;
   transition: 0.5s;
 
@@ -95,17 +99,17 @@ a {
 
 a:hover {
   color: white;
-  background-color: #CA3F72;
+  background-color: #8557EF;
   transform: translateX(0px) translateX(12px);
 }
 
 @keyframes card {
   from {transform: translateY(50%);
   opacity: 0;
-  background-color: white;}
+  background-color: #C4EAFF;}
   to {transform: translateY(0%);
   opacity: 0.5;
-  background-color: white;}
+  background-color: #C4EAFF;}
 }
 
 .card:hover {
