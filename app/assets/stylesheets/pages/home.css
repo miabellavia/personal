@@ -9,11 +9,18 @@ body {
 }
 
 #hero {
-  background-color: #c4eaff;
+  background-color: #F2F7F2;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: auto;
+  height: 2000px;
+
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 h1 {
@@ -25,54 +32,91 @@ h1 {
 #title{
   font-family: 'Playfair Display';
   font-weight: 900;
+
 }
 
 h3 {
-  /* font-family: 'Overpass'; */
   font-family: 'Roboto Flex';
   font-size: 22.43px;
 }
 
 #description {
   margin-top: 0px;
+  margin-bottom: 28px;
 }
 
 #hero_showcase {
   display: flex;
   justify-content: space-around;
-  width: 960px;
+  width: 920px;
   align-items: center;
   margin-bottom: 32px;
   margin-top: 22px;
 }
 
-.card {
-  opacity: 50%;
-  background-color: black;
+.item {
+  opacity: 70%;
+  box-shadow: 4px 6px rgba(0, 0, 0, 0.3);
+  animation-name: img;
+  transition: 0.5s;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.36,
+    0.72,
+    0.63,
+    0.98);
 }
 
-#c1, #c3 {
-  width: 235px;
-  height: 358px;
+#img1, #img3 {
+  width: 216px;
+  height: 328px;
 
 }
 
-#c2 {
-  width: 439px;
-  height: 439px;
+#img2 {
+  width: 380px;
+  height: 440px;
+}
+
+#image1 {
+  width: 100%;
+}
+
+#buttons_container {
+  display: flex;
 }
 
 a {
   color:black;
   text-decoration: none;
-  padding: 8px 22px;
+  padding: 8px 28px;
   border: 3px solid #8557EF;
-  border-radius: 40px;
   font-size: 16px;
-  transition: 0.75s;
+  transition: 0.5s;
 
 }
 
 a:hover {
-  background-color: #aa88fa;
+  color: white;
+  background-color: #8557EF;
+  transform: translateX(0px) translateX(12px);
+}
+
+@keyframes img {
+  from {transform: translateY(50%);
+  opacity: 0;
+  background-color: #C4EAFF;}
+  to {transform: translateY(0%);
+  opacity: 0.7;
+  background-color: #C4EAFF;}
+}
+
+.item:hover {
+  transform: translateY(-8%);
+  opacity: 1;
+}
+
+#buttons_container {
+  width: 336px;
+  display: flex;
+  justify-content: space-evenly;
 }
